@@ -1,5 +1,11 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/common.css')
+  body
+    div.cenDiv
+      ul.type
+        span Language
+        ul.language
+          li
+            span Japanese

@@ -1,0 +1,8 @@
+.type > span {
+  background: #0075f3;
+  border: 2px solid #6a7f9c;
+  border-radius: 15px;
+  padding: 10px; }
+
+body {
+  font-size: 15px; }
